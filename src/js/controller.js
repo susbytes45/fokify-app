@@ -106,7 +106,7 @@ const controlAddRecipe = async function (newRecipe) {
     // Render bookmark view
     bookmarksView.render(model.state.bookmarks);
 
-    // Change ID in URL
+    // Change ID in URL link
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
     // Close form window
